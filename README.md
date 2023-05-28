@@ -18,6 +18,6 @@ Instructions for compiling:
 
 *************************
 
-When the mmap system call is used, the VSZ (virtual memory) consumption will increase by the size of the mapped page. In the code, the getpagesize() is used to retrieve the page size. 
+- When the mmap system call is used, the VSZ (virtual memory) consumption will increase by the size of the mapped page. In the code, the getpagesize() is used to retrieve the page size. 
 
-When data is added to the empty page, the RSS (physical memory) consumption will increase since there is now data in the page 
+- When data is added to the empty page, the RSS (physical memory) consumption will increase since there is now data in the page 
