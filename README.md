@@ -13,7 +13,9 @@ Instructions for compiling:
 
 *************************
 
-- The mmap system call allows a process to request a specific range of memory to be mapped into its address space. 
+- The mmap system call allows a process to request a specific range of memory to be mapped into its 
+address space. 
+
 - The munmap system call is used to deallocate the memory mapping created by the mmap system call
 
 *************************
